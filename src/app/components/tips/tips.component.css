@@ -1,0 +1,65 @@
+img{
+    width: 80px;
+    height: 80px;
+}
+
+.cerveza{
+    width: -6px;
+    height: -6px;
+
+    position: fixed;
+    min-width: 1px;
+    min-height: 1px;
+    top: 1px;
+    left: 1px;
+
+    transform: translateX(380%)translateY(340%);
+}
+.cuadro{
+
+    width: -6px;
+    height: -6px;
+
+    position: fixed;
+    min-width: 1px;
+    min-height: 1px;
+    top: 1px;
+    left: 1px;
+
+    transform: translateX(85%)translateY(210%);
+}
+
+
+.tomy{
+
+    width: -6px;
+    height: -6px;
+
+    position: fixed;
+    min-width: 1px;
+    min-height: 1px;
+    top: 1px;
+    left: 1px;
+
+    transform: translateX(1110%)translateY(125%);
+}
+.interior {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width:480px){
+    .interior {
+        width: 50%;
+    }
+
+}
+
+
+@media (min-width:1024px){
+    .interior{
+        width: auto;
+    }
+
+}

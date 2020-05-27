@@ -1,0 +1,22 @@
+
+ <section class="cuadro">
+  <div *ngFor="let img of cuadro" (click) = "mostrar($event)">
+   <button><img [src]="img"/></button>  
+  </div>  
+</section>
+
+<section class="cerveza">
+  <div *ngFor="let img of imagen" (click) = "cerveza($event)">
+    <img [src]="img"/> 
+  </div>  
+</section>
+
+<section class="tomy">
+  <div *ngFor="let img of dali" (click) = "tomy($event)">
+    <img [src]="img"/> 
+  </div>  
+</section>
+
+
+
+
